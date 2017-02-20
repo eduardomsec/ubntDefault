@@ -17,7 +17,7 @@ def ubiquit(host, user, passwd):
         client.connect(host, username=user, password=passwd)
 
         print 'UBNT ENCONTRADO - Digite as seguintes informacoes:\n' \
-              'mca-cli\nset-inform http://unifi.campogrande.ms.gov.br:8080/inform\n'
+              'mca-cli\nset-inform http://unifi.yourdomain.ms.gov.br:8080/inform\n'
 
         create(host, user, passwd)
 
